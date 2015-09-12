@@ -1,0 +1,39 @@
+html,
+body,
+.main-wrapper {
+ height: 100%;
+}
+
+.main-header {
+  position: relative;
+  width: 100%;
+  border: 1px solid;
+  min-height: 100%;
+}
+
+.main-logo,
+.main-nav {
+  position: absolute;
+}
+
+/*this will reposition the logo*/
+.main-logo {
+  width: 500px; /*this will actually grow the logo bc logo img is 100% of this 500px box.*/
+  border: 1px solid red;
+  margin-left: 20px;
+}
+
+/*this will resize the image to a perecntage of its parent which is main-logo*/
+.main-logo img {
+  width: 100%;
+}
+
+.main-nav a {
+  text-decoration: none;
+  border: 1px solid green;
+}
+
+.main-nav li {
+  border: 3px solid purple;
+  display: inline-block;
+}
