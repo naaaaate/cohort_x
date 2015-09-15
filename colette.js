@@ -63,7 +63,7 @@ morphDiv2.appendChild(morphinButton2);
 
 // when click button it shows the h1 that says its morphin time!
 morphinButton2.onclick = function() {
-  colB.classList.add("col-x");
+  // colB.classList.add("col-x");
   colB.classList.add("col-speer");
   morphDiv2.replaceChild(morphinText2, morphDiv2.childNodes[0]);
 }
